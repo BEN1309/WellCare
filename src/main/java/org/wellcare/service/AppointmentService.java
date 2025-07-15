@@ -2,7 +2,7 @@ package org.wellcare.service;
 
 import java.util.List;
 
-import org.wellcare.model.Appointment;
+import org.wellcare.entities.Appointment;
 
 public interface AppointmentService {
 

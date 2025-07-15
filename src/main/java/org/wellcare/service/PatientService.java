@@ -2,7 +2,7 @@ package org.wellcare.service;
 
 import java.util.List;
 
-import org.wellcare.model.Patient;
+import org.wellcare.entities.Patient;
 
 public interface PatientService {
 

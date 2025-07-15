@@ -4,15 +4,12 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.wellcare.entities.Doctor;
 import org.wellcare.exception.ResourceNotFoundException;
-import org.wellcare.model.Doctor;
 import org.wellcare.repository.DoctorRepository;
 import org.wellcare.service.DoctorService;
 
-import jakarta.transaction.Transactional;
-
 @Service
-@Transactional
 public class DoctorServiceImpl implements DoctorService {
 
 	@Autowired

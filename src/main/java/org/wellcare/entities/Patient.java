@@ -1,4 +1,4 @@
-package org.wellcare.model;
+package org.wellcare.entities;
 
 import jakarta.persistence.*;
 import lombok.*;

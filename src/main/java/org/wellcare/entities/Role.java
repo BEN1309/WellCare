@@ -1,4 +1,4 @@
-package org.wellcare.model;
+package org.wellcare.entities;
 
 public enum Role {
 	ROLE_ADMIN,

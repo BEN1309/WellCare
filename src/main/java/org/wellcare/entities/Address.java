@@ -1,4 +1,4 @@
-package org.wellcare.model;
+package org.wellcare.entities;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -7,13 +7,14 @@ import lombok.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Doctor {
+public class Address {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long id;
-	private String name;
-	private String specialization;
-	private boolean available = true;
+	private int id;
+	private String street;
+	private String city;
+	private String state;
+	private String pin;
 
 }

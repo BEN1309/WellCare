@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.wellcare.entities.Appointment;
 import org.wellcare.exception.ResourceNotFoundException;
-import org.wellcare.model.Appointment;
 import org.wellcare.repository.AppointmentRepository;
 import org.wellcare.service.AppointmentService;
 
